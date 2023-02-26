@@ -1,16 +1,13 @@
 # Overview
 
-A simple backend of a FastAPI CRUD application, providing user authentication functionality (SignUp, SignIn and SignOut) and handling resources stored in a PosgreSQL database.
+A simple backend of a CRUD application, providing user authentication functionality (SignUp, SignIn and SignOut) and handling resources stored in a PosgreSQL database.
 
 ## Local Deployment
 
-Clone the repository
+To run the application in a docker container:
 
 ```bash
-git clone https://github.com/SoFish1/crud_app.git
-
 cd crud_app
-
 docker-compose up -d
 ```
 
